@@ -1,0 +1,86 @@
+Bana bir rehber öğretmenin kullanabileceği, hem öğrenci hem veli iletişimini kolaylaştıracak, aynı zamanda mesleki araçları barındıran kapsamlı bir web sitesi oluştur. Web sitesi modern, sade, mobil uyumlu (responsive) olmalı. Site HTML, CSS ve JavaScript ile yazılsın. Gerekiyorsa temel düzeyde bir backend sistemi de olabilir. Aşağıdaki özellikleri mutlaka barındırsın:
+
+🧩 GENEL TASARIM
+Ana sayfa: Kurumsal bir karşılama mesajı, öğretmenin kısa özgeçmişi, iletişim butonları.
+
+Navigasyon menüsü: Ana Sayfa, Hakkımda, Öğrenciler İçin, Veliler İçin, Testler & Envanterler, Randevu Al, Faydalı Linkler, İletişim
+
+Tema: Sade ve profesyonel (açık mavi-gri tonlar önerilir)
+
+Responsive tasarım: Mobilde ve tablette düzgün görüntüleme
+
+Başlıkta öğretmenin adı ve ünvanı
+
+🎓 ÖĞRENCİLER İÇİN SAYFASI
+Meslek tanıtım kartları (HTML tabanlı interaktif kutucuklar)
+
+LGS, YKS bilgilendirme bölümleri (PDF indirilebilir rehberler)
+
+Sınav stresiyle başa çıkma yolları
+
+Kariyer planlama rehberi
+
+Video & görsel içerik yerleştirme desteği
+
+Öğrencilere özel testler (kişilik testi, ilgi envanteri vb.)
+
+“Kendini Tanı” başlıklı mini interaktif anketler (JS ile)
+
+🧑‍🤝‍🧑 VELİLER İÇİN SAYFASI
+Ergenlik dönemi ile baş etme yolları
+
+Sınav döneminde aile tutumları
+
+İletişim becerileri geliştirme önerileri
+
+Ebeveyn tutumları testi
+
+Veli toplantı tarihleri ve duyuruları bölümü
+
+🗓️ RANDEVU AL BÖLÜMÜ
+Form: Ad, Soyad, Sınıf, Randevu sebebi, Tarih seçimi
+
+Gönderilen veriler e-posta ile yönlendirilsin ya da basit bir JSON dosyasına kaydedilsin
+
+Randevular haftalık takvimde görüntülenebilsin (örnek takvim JS ile)
+
+🧪 TESTLER & ENVANTERLER
+Öğrencilere uygulanabilecek testler (örnek: Holland Meslek Testi, MBTI, İlgi Envanteri)
+
+Testler HTML form şeklinde, JS ile sonuç hesaplamalı
+
+Sonuçlara göre açıklama metinleri gösterilsin
+
+Test sonucu öğrencinin isteğiyle PDF olarak indirilebilir olsun
+
+📚 FAYDALI LİNKLER
+MEB rehberlik sayfası
+
+Ölçme, Değerlendirme merkezleri
+
+Sınav başvuru ve sonuç sayfaları
+
+Güncel yönetmelikler
+
+📞 İLETİŞİM SAYFASI
+İsim, e-posta, mesaj alanı
+
+Google Maps ile okulun konumu
+
+WhatsApp iletişim butonu (isteğe bağlı)
+
+🎯 DİĞER İSTEKLER
+Açılışta öğrencilere moral verici bir söz/animasyon
+
+Siteye hafif bir giriş animasyonu (Fade-in, Slide-in)
+
+Tüm sayfaların altına telif bilgisi: “© 2025 Rehber Öğretmen Kemal”
+
+Eğer Replit'te backend destekliyse aşağıdaki opsiyonel istekler de eklenebilir:
+
+🔒 OPSİYONEL BACKEND İSTEKLERİ
+Form verilerinin kaydedilmesi (Node.js veya Flask backend)
+
+Öğretmenin admin paneliyle gelen mesajları görüntülemesi
+
+Test sonuçlarının saklanması
